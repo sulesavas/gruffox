@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>gruffox</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+<div class="container">
+	<header>
+		<div class="row justify-content-center justify-content-sm-end">
+			<div class="col-auto">
+				<select name="" id="" class="paraBirimi">
+					<option value="">TL</option>
+					<option value="">USD</option>
+					<option value="">EURO</option>
+				</select>
+				<a href="myaccount.html" class="uyelik">MY ACCOUNT</a>
+				<a href="cart.html" class="sepet">VIEW CART (0)</a>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-light px-0 mt-4 border-bottom border-dark pb-3">
+  <a class="navbar-brand" href="index.html"><img src="images/gruff-logo.png" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="shop.html">SHOP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="lookbook.html">LOOKBOOK</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pres.html">PRES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutus.html">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">CONTACT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">BLOG</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+	</header>
+	<main>
+		<div class="myaccount">
+			<h2>MY ACCOUNT</h2>
+			<div class="row">
+				<div class="col-sm-7">
+					<h3>NOT YET?</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet cum ipsa, laboriosam necessitatibus? Rerum consectetur, accusantium laudantium soluta veniam vero.</p>
+					<button type="button" class="btn btn-dark rounded-0 btn-register float-right" data-toggle="modal" data-target="#registerModal">REGISTER</button>
+				</div>
+				<div class="col-sm-5">
+					<h3>ALREADY REGISTER</h3>
+					<p>Lorem ipsum dolor sit.</p>
+					<form>
+				  		<div class="form-group row">
+						<label for="email" class="col-sm-2 col-form-label">Email</label>
+						<div class="col-sm-10">
+						  <input type="email" class="form-control rounded-0 border-dark" id="email">
+						</div>
+					  </div>
+					  <div class="form-group row">
+						<label for="password" class="col-sm-2 col-form-label">Şifreniz</label>
+						<div class="col-sm-10">
+						  <input type="password" class="form-control rounded-0 border-dark" id="password">
+						</div>
+					  </div>
+						<div class="form-group">
+							<a href="" class="float-left forget">Şifremi Unuttum</a>
+							<button type="button" class="btn btn-dark rounded-0 btn-register float-right">LOGIN</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="my-5">
+		<nav class="nav justify-content-center fmenu">
+		  <a class="nav-link active" href="#">SHOP</a>
+		  <a class="nav-link" href="#">LOOKBOOK</a>
+		  <a class="nav-link" href="#">PRES</a>
+		  <a class="nav-link " href="#">ABOUT US</a>
+		  <a class="nav-link " href="#">CONTACT</a>
+		  <a class="nav-link " href="#">BLOG</a>
+		  <a class="nav-link " href="#">DELIVERY</a>
+		</nav>
+		<div class="row">
+			<div class="col-sm-4 mt-3">
+				<div class="copyright">
+					&copy; 2017 GRUFF CO.
+				</div>
+			</div>
+			<div class="col-sm-4 mt-3">
+				<div class="security">
+					<img src="images/payment.png" alt="">
+				</div>
+			</div>
+			<div class="col-sm-4 mt-3">
+				<div class="social">
+					<a href=""><img src="images/facebook.png" alt=""></a>
+					<a href=""><img src="images/twitter.png" alt=""></a>
+					<a href=""><img src="images/instagram.png" alt=""></a>
+					<a href=""><img src="images/vimeo.png" alt=""></a>
+					<a href=""><img src="images/pinterest.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+<!-- Modal Register -->
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New Account</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form>
+          <div class="form-group">
+			<label for="ads">Ad Soyad:</label>
+			<input type="text" class="form-control rounded-0 border-dark" id="ads">
+		  </div>
+		  <div class="form-group">
+			<label for="tel">Telefon:</label>
+			<input type="text" class="form-control rounded-0 border-dark" id="tel">
+		  </div>
+		  <div class="form-group">
+			<label for="email">Email:</label>
+			<input type="email" class="form-control rounded-0 border-dark" id="email">
+		  </div>
+		  <div class="form-group">
+			<label for="password">Şifreniz:</label>
+			<input type="password" class="form-control rounded-0 border-dark" id="password">
+		  </div>
+		  <div class="form-group form-check">
+			<input type="checkbox" class="form-check-input" id="sozlesme">
+			<label class="form-check-label" for="sozlesme">Sözleşmeyi okudum Kabul ediyorum</label>
+		  </div>
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button data-dismiss="modal" type="button" class="btn btn-dark rounded-0 btn-register">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+

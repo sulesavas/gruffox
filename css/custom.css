@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Muli', sans-serif;
+}
+.uyelik{
+	color: #000000;
+	font-size: 14px;
+	padding: 0px 20px;
+	border-right: solid 1px #000000;
+}
+.sepet{
+	color: #000000;
+	font-size: 14px;
+	padding-left: 20px;
+	background: url(../images/cart.png) no-repeat left center;
+}
+header{
+	margin-top: 20px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	text-decoration: underline;
+	color: #000000;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #000000;
+	font-size: 15px;
+}
+.navbar-nav li:nth-last-child(1) a{
+	padding-right: 0px!important;
+}
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+}
+.box{
+	position: relative;
+	display: block;
+}
+.box p{
+	position: absolute;
+	left:0px;
+	bottom:0px;
+	background-color: rgba(0,0,0,0.53);
+	margin: 0px;
+	padding: 15px;
+	width: 100%;
+	text-align: center;
+	color:#FFFFFF;
+	transition: .4s;
+	height: 54px;
+}
+.box:hover p{
+	height: 100%;
+	background-color: rgba(255,0,4,0.58);
+}
+.btn-dark{
+	background-color: #000000;
+}
+.addMail{
+	margin-top: 20px;
+}
+.fmenu{
+	border-top: solid 1px #000000;
+	border-bottom: solid 1px #000000;
+}
+.fmenu a{
+	color: #000000;
+	font-size: 14px;
+}
+.social{
+	text-align: right;
+}
+.security{
+	text-align: center;
+}
+.myaccount h2{
+	font-size: 72px;
+	text-align: center;
+	font-weight: bold;
+	margin: 15px;
+}
+.btn-register{
+	height: 60px;
+	font-size: 16px;
+}
+.forget{
+	color:#000000;
+}
+.breadcrumb{
+	background-color: transparent;
+	border-bottom: solid 1px #000000;
+	border-radius: 0px;
+}
+.breadcrumb a{
+	color: #000000;
+}
+.shop .info a{
+	color: #000000;
+	text-align: center;
+}
+.shop .pic{
+	position: relative;
+	overflow: hidden;
+}
+.shop .pic .afterimg{
+	position: absolute;
+	top: 100%;
+	transition: .5s;
+}
+.shop .pic:hover .afterimg{
+	top:0px;
+}
+.urunDetay .list-group{
+	flex-direction: row;
+}
+.urunDetay .list-group-item.active{
+	background-color: transparent;
+	border:solid 1px #9E9E9E;
+}
+.urunDetay .list-group-item{
+	border:none;
+}
+.urunDetay .backStore{
+	color: #000000;
+	font-size: 13px;
+	text-decoration: underline;
+}
+.urunDetay .urunName{
+	clear: both;
+	font-weight: bold;
+	font-size: 27px;
+}
+.urunDetay .urunName span{
+	text-decoration: underline;
+}
+.urunDetay .urunName:after{
+	content: "";
+	width: 8px;
+	height: 8px;
+	background-color: #F81B1F;
+	display: inline-block;
+	margin-left: 10px;
+	border-radius: 100%;
+}
+.urunDetay .urunKod{
+	font-weight: bold;
+	font-size: 17px;
+}
+@media(max-width:576px){
+	.social,.copyright{
+		text-align: center;
+	}
+	.myaccount h2{
+		font-size: 30px;
+	}
+}
+@media(max-width:360px){
+	.uyelik{
+		font-size: 13px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.sepet{
+		font-size: 13px;
+		padding-left: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
