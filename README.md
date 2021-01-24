@@ -1,4 +1,10 @@
-# Gruffox / Alışveriş Sitesi
+# Gruffox
+
+Alışveriş Sitesi
+
+### Demo Sitesi
+ Adres: https://sulesavas.github.io/gruffox
+ 
 ### Kullanılan Teknolojiler
 
 - Bootstrap
